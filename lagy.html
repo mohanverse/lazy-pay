@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            paycolor: '#DF3E66',
+            myfirst: '#150434',
+            myborder: '#333333',
+            mytext: '#500E63',
+            mybg:'#F9F8F8',
+            mycard:'#FFFFFF',
+          }
+        }
+      }
+    }
+  </script>
+    <title>Lagy pe</title>
+</head>
+<body>
+    <!-- navbar section -->
+    <header class="bg-myfir">
+        <nav class="reletive flex container p-2 mx-auto cursor-pointer width-[100%] box-border justify-between inline-block ">
+          <div class="md:ml-10 mt-6 md:flex space-x-8 ">
+              <div class="">
+                  <img class="md:w-40 sm:mb-6 sm:w-24" src="https://production-wordpress-blog.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/01/10105252/Header_logo_light-1-1.svg" alt="">
+              </div>
+              
+          </div>
+          <div>
+            <div class="sm:hidden md:flex space-x-8 p-[20px]">
+              <a class=" text-xl mt-6" href="#">Products <select name="" id=""></select></a>
+              <a class=" text-xl mt-6" href="#">Offer</a>
+              <a class=" text-xl mt-6" href="#">Blog <select name="" id=""></select></a>
+              <a class="flex rounded bg-mybtn1 hover:bg-mybtn2 md:p-4 text-black text-xl mt-2 " href="#">For Businesses</a>
+              <button class="text-xl bg-paycolor rounded-lg w-24 h-10 mt-4 text-white">Pay Bill</button>
+              <button class="text-xl rounded-full w-36 h-10 mt-4 text-paycolor border-2 border-paycolor">signup/login</button>
+        </div>
+    </header>
+
+    <!-- hero section -->
+        <section class="flex flex-col items-center
+        md:flex-row gap-cols-2">
+            <div class=" mx-32 w-1/2">
+                <img class="border-hidden" src="https://production-wordpress-blog.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/09/19164538/Introducing.svg" alt="">
+                <h1 class="text-6xl font-bold">India's Credit<br> Super-App</h1>
+                <h2 class="mt-2">Get Credit in 90 seconds. Shop at Millions of<br> Merchants. Pay Later.</h2>
+            </div>
+            <div class="w-1/2 mx-32">
+                <video width="460" height="240" controlslist="nofullscreen nodownload noremoteplayback" autoplay>
+                    <source src="./lpf1.webm">
+                  </video>
+            </div>
+
+        </section>
+
+<!-- down section -->
+<section class="flex mt-10 bg-myfirst text-white gap-4">
+    <div class="w-1/2 flex mx-16 gap-10">
+        <div class="mt-6">
+            <h1 class="text-4xl">6 crore</h1>
+            <h2>Total eligible users</h2>
+        </div>
+        <div class="mt-6">
+            <h1 class="text-4xl">Rupe21,57,45,68,859</h1>
+            <h2>Total creadit given</h2>
+        </div>
+    </div>
+    <div class="flex flex-col-reverse items-center
+    md:flex-row gap-2">
+        <div class="mt-6 mb-6">
+            <img src="https://lazypay.in/_next/image?url=https%3A%2F%2Fproduction-wordpress-blog.s3.ap-south-1.amazonaws.com%2Fwp-content%2Fuploads%2F2022%2F03%2F23052521%2Fapp-store.png&w=640&q=100" alt="">
+        </div>
+        <div class="mt-6 mb-6">
+            <img src="https://lazypay.in/_next/image?url=https%3A%2F%2Fproduction-wordpress-blog.s3.ap-south-1.amazonaws.com%2Fwp-content%2Fuploads%2F2022%2F03%2F23053026%2Fgoogle-play.png&w=640&q=100" alt="">
+        </div>
+    </div>
+</section>
+
+
+<!-- midtext -->
+    <div class="mt-10 text-5xl font-bold text-center">
+        <h1>The LazyPay Credit<br>Universe</h1>
+    </div>
+
+
+<!-- another hero -->
+<section class="flex flex-col items-center
+md:flex-row gap-cols-2">
+    <div class=" mx-32 w-1/2">
+        <h1 class="text-xl font-bold text-mytext">MERCHANT CHECKOUT</h1>
+        <h1 class="text-5xl font-bold">Checkout in 1-click.<br>Pay 15 days later.</h1>
+        <h2 class="mt-2">One-tap payments. Checkout in <5 pay seconds. Pay<br>
+        back your dues in 15 days.</h2>
+        <button class="text-2xl bg-paycolor rounded-lg w-36 h-14 mt-4 text-white font-bold">know more</button>
+    </div>
+    <div class="w-1/2 mx-32 mt-16">
+        <video width="260" class="border-myborder border-8 rounded-lg mx-20" controlslist="nofullscreen nodownload noremoteplayback" autoplay>
+            <source src="./First.webm">
+          </video>
+    </div>
+</section>
+
+<!-- another one hero -->
+<section class="flex flex-col items-center
+md:flex-row gap-cols-2">
+    <div class=" mx-32 w-1/2">
+        <h1 class="text-xl font-bold text-mytext">XPRESS CASH</h1>
+        <h1 class="text-5xl font-bold">Lightning fast cash. Zero physical paperwork.</h1>
+        <h2 class="mt-2">Upto Rs. 5 lakh in your bank account instantly.*</h2>
+        <button class="text-2xl bg-paycolor rounded-lg w-36 h-14 mt-4 text-white font-bold">know more</button>
+    </div>
+    <div class="w-1/2 mx-32 mt-16">
+        <video width="260" class="border-myborder border-8 rounded-lg mx-20" controlslist="nofullscreen nodownload noremoteplayback" autoplay>
+            <source src="./Third_Express+loans.webm">
+          </video>
+    </div>
+</section>
+
+<!-- option of company -->
+<section class="mt-32 mb-16 bg-mybg relative">
+    <div class="text-center relative">
+        <h1 class="text-4xl font-bold mt-12">Infinite options to shop!</h1>
+        <h2 class="">Use your LazyPay Credit offline and online - across millions of merchants</h2>
+    </div>
+    <div class="mt-16 mb-16">
+        <img class="md:h-72 sm:h-24" src="https://production-wordpress-blog.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/03/23052523/merchants-image.png" alt="">
+    </div>
+</section>
+
+<!-- text center -->
+<section class="mt-32">
+    <div class="text-center">
+        <h1 class="text-5xl font-bold ">We’re making you offers<br>you can’t refuse!</h1>
+    </div>
+</section>
+
+<!-- cards -->
+
+<section class=" md:flex gap-2 mx-16  mt-32 ">
+    <div class="container flex items-center bg-mywhite flex flex-row  ml-16 box-border md:h-[40vh] md:w-[80%] p-6 md:shadow-2xl rounded">
+      <div>
+        <h1 class="text-xl font-bold">Get Up to Rs 75 caseback for the first ever lazypay transaction</h1> 
+      <h2 class="text-paycolor">see more</h2>
+      </div> 
+      <div>
+        <img width="200px" src="https://lazypay.in/_next/image?url=https%3A%2F%2Frewards-prod-wordpress.s3.ap-south-1.amazonaws.com%2Fwp-content%2Fuploads%2Flogo-slider-lightbox%2Frazorpay.jpg&w=1920&q=100" alt="">
+      </div>
+    </div>
+
+    <div class="container flex items-center bg-mywhite flex flex-row  ml-16 box-border md:h-[40vh] md:w-[80%] p-6 md:shadow-2xl rounded">
+        <div>
+          <h1 class="text-xl font-bold">Get Flat 50% off + extra 50% CB offer on orders above 299 on</h1> 
+        <h2 class="text-paycolor">see more</h2>
+        </div> 
+        <div>
+          <img width="200px" src="https://lazypay.in/_next/image?url=https%3A%2F%2Frewards-prod-wordpress.s3.ap-south-1.amazonaws.com%2Fwp-content%2Fuploads%2F2022%2F11%2F23111120%2FPluckk.jpg&w=1920&q=100" alt="">
+        </div>
+      </div>
+  
+
+      <div class="container flex items-center bg-mywhite flex flex-row  ml-16 box-border md:h-[40vh] md:w-[80%] p-6 md:shadow-2xl rounded">
+        <div>
+          <h1 class="text-xl font-bold">Up to Rs 100 Cashback on your 1st LazyPay transaction on VI.</h1> 
+        <h2 class="text-paycolor">see more</h2>
+        </div> 
+        <div>
+          <img width="200px" src="https://lazypay.in/_next/image?url=https%3A%2F%2Frewards-prod-wordpress.s3.ap-south-1.amazonaws.com%2Fwp-content%2Fuploads%2F2022%2F09%2F03065245%2F100x100.png&w=1920&q=100" alt="">
+        </div>
+      </div>
+      
+</section>
+<section>
+    <div class="text-center">
+        <button class="text-2xl bg-paycolor rounded-lg md:w-[20%] h-[10vh] mt-32 text-white">Explore offers</button>
+      </div>
+</section>
+
+
+
+</body>
+</html>
